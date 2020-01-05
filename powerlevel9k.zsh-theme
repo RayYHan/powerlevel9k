@@ -180,7 +180,7 @@ left_prompt_segment() {
 # End the left prompt, closes the final segment.
 left_prompt_end() {
   if [[ -n $CURRENT_BG ]]; then
-    echo -n "%k%F{$CURRENT_BG}$(print_icon 'LEFT_SEGMENT_SEPARATOR')"
+    echo -n "$(print_icon 'LEFT_SEGMENT_SEPARATOR')"
   else
     echo -n "%k"
   fi

@@ -318,7 +318,7 @@ case $POWERLEVEL9K_MODE in
     # Set the right locale to protect special characters
     local LC_ALL="" LC_CTYPE="en_US.UTF-8"
     icons=(
-      LEFT_SEGMENT_SEPARATOR         $'\uE0B0'              # 
+      LEFT_SEGMENT_SEPARATOR         $'\uE0B1'              # 
       RIGHT_SEGMENT_SEPARATOR        $'\uE0B2'              # 
       LEFT_SEGMENT_END_SEPARATOR     ' '                    # Whitespace
       LEFT_SUBSEGMENT_SEPARATOR      $'\uE0B1'              # 
